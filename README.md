@@ -71,10 +71,14 @@ Tests cover model pricing, descriptions, discounts, and persistence behavior.
 
 ```text
 Order summary:
-large pizza with thin crust and toppings: pepperoni, mushrooms
-medium pizza with stuffed crust and toppings: onions
-medium Coke
-Total with discount: $22.25
+- Small pizza with thin crust and toppings: 
+- Medium pizza with thick crust and toppings: pepperoni
+- Large pizza with stuffed crust and toppings: pepperoni, mushrooms, onions
+- Brownie
+- Ice cream
+- Medium Coke
+- Large Coke
+Total with discount: $38.88
 ```
 
 ---
