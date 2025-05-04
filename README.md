@@ -60,7 +60,7 @@ PYTHONPATH=. python scripts/run_example.py
 ## 🧪 Testing
 
 ```bash
-pytest tests/
+PYTHONPATH=. pytest tests/
 ```
 
 Tests cover model pricing, descriptions, discounts, and persistence behavior.
