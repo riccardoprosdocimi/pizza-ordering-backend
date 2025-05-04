@@ -1,0 +1,16 @@
+services:
+  tests:
+    build: .
+    container_name: order_tests
+    volumes:
+      - .:/app
+    command: pytest tests/
+
+  order-backend:
+    depends_on:
+      - tests
+    build: .
+    container_name: order_backend
+    volumes:
+      - .:/app
+    command: python scripts/run_example.py
