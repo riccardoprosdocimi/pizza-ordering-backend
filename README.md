@@ -11,7 +11,7 @@ A modular, object-oriented backend system for managing pizza orders with customi
 - Object-oriented models for `Pizza`, `Drink`, `Dessert`
 - Custom pricing per pizza size, crust, and toppings
 - Order system supporting multiple items
-- Discount policy support (e.g. 50% off second pizza)
+- Discount policy support (e.g. 50% off highest priced pizza with an order of 2 or more)
 - Swappable persistence layer (currently in-memory)
 - Unit-tested with `pytest`
 - CI setup with GitHub Actions
